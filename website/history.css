@@ -1,0 +1,46 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    border-top: 0%;
+    font-size: 18pt ;
+    word-spacing: 0.4;
+}
+
+.first{
+    font-family: Antonio;
+    padding: 2em;
+    background-color: rgb(59, 60, 98);
+    color: whitesmoke;
+    height: 100vh;
+    background-image: linear-gradient(rgb(59, 94, 98),rgb(104, 151, 168));
+}
+
+.second{
+    font-family: Antonio;
+    padding: 2em;
+    color: whitesmoke;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)30%,rgba(0, 0, 0, 0.253),rgba(0, 0, 0, 0.5)30%) , url("bgcarhistory.jpg")no-repeat center center fixed;
+}
+
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(255, 255, 255)90%, rgba(0, 0, 0, 0.2));
+    height: 100vh;
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.home-outline{
+    color: rgb(0, 0, 0);
+    font-size: 15em;
+    transition: all 500ms ease-in-out;
+}
+
+.home-outline:hover{
+    transform:scale(1.4);
+    color: rgb(42, 80, 114);
+}

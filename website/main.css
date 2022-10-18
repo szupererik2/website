@@ -1,0 +1,85 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    border-top: 0%;
+    font-family: Antonio;
+    font-size: 16pt;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.bevezetes{
+    
+    background : linear-gradient(rgba(0, 0, 0, 0.750),rgba(0, 0, 0, 0.253),rgba(0, 0, 0, 0.750)) ,url(bgcar.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: whitesmoke;
+    height: 100vh;
+    width: 98%;
+    padding: 2%;
+}
+
+.bevezetes p{
+    width: 80%;
+}
+
+.folytatás{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(255, 255, 255), rgba(0, 0, 0, 0.2));
+    color :rgb(0, 0, 0);
+    padding: 2em;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fa{
+    color: rgb(0, 0, 0);
+    font-size: 5em;
+}
+
+.time-outline{
+    font-size: 20rem;
+    color: black;
+    transition: all 500ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.car-sport-outline{
+    font-size: 15em;
+    color: black;
+    transition: all 500ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    text-decoration: none;
+
+}
+
+.time-outline:hover{
+    transform:scale(1.4);
+    color: rgb(42, 80, 114);
+}
+
+.car-sport-outline:hover{
+    transform:scale(1.4);
+    color: rgb(42, 80, 114);
+}
+
+.történetBTN{
+    text-decoration: none;
+    font-size: 50pt;
+
+
+}
+.modernBTN{
+    text-decoration: none;
+    font-size: 50pt;
+}

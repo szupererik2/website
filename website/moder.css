@@ -1,0 +1,135 @@
+body{
+    font-family: Antonio;
+    font-size : 16pt;
+    padding: 0%;
+    margin: 0%;
+    border-top: 0%;
+    overflow-x: hidden;
+    word-spacing: 0.3em;
+}
+
+.intro{
+    background: linear-gradient(rgba(0, 0, 0, 0.5)30%,rgba(0, 0, 0, 0.253),rgba(0, 0, 0, 0.5)30%) , url("modernkocsi.jpg")no-repeat center center fixed;
+    background-size: cover;
+    width: 98%;
+    height: 100vh;
+    padding : 2%;
+    color: white;
+}
+
+.listMclaren720{
+    font-size : 16pt;
+    width: 98%;
+    padding: 2%;
+    height: 100vh;
+    background: url(marbleWall.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.Mclaren720img{
+    background: url(Mclaren720.jpg)no-repeat center center fixed;
+    width: 98%;
+    padding: 2%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.Mclaren720text{
+    display: flex;
+    align-items: center;
+
+}
+
+a, .Mclaren720text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.listNissanGtr{
+    width: 98%;
+    padding: 2%;
+    height: 100vh;
+    background: url(marbleWall.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.NissanGtrimg{
+    background: url(NissanGtr.jpg)no-repeat center center fixed;
+    width: 98%;
+    padding: 2%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.listFerrariPista{
+    width: 98%;
+    padding: 2%;
+    height: 100vh;
+    background: url(marbleWall.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.FerrariPistaimg{
+    background: url(FerrariPista.jpg)no-repeat center center fixed;
+    width: 98%;
+    padding: 2%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.listBugatti{
+    width: 98%;
+    padding: 2%;
+    height: 100vh;
+    background: url(marbleWall.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.bugattiimg{
+    background: url(bugatti.jpg)no-repeat center center fixed;
+    width: 98%;
+    padding: 2%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.listlambo{
+    width: 98%;
+    padding: 2%;
+    height: 100vh;
+    background: url(marbleWall.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.lamboimg{
+    background: url(lambo.jpg)no-repeat center center fixed;
+    width: 98%;
+    padding: 2%;
+    height: 100vh;
+    background-size: cover;
+}
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(255, 255, 255)90%, rgba(0, 0, 0, 0.2));
+    height: 100vh;
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.home-outline{
+    color: rgb(0, 0, 0);
+    font-size: 15em;
+    transition: all 500ms ease-in-out;
+}
+
+.home-outline:hover{
+    transform:scale(1.4);
+    color: rgb(42, 80, 114);
+}
+
+.kocsik{
+    font-weight: bold;
+}
